@@ -1,0 +1,9 @@
+name: grpc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytest
+  pip:
+    - grpcio-tools
+    - opencensus
